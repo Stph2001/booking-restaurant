@@ -40,7 +40,7 @@ public class BookingRestaurantApiApplication {
                     "ahmed.ali@upc.pe",
                     18
             );
-            studentRepository.saveAll(List.of(maria,ahmed,maria2));
+            /*studentRepository.saveAll(List.of(maria,ahmed,maria2));
 
             studentRepository
                     .findStudentByEmail("ahmed.ali@upc.pe")
@@ -60,7 +60,7 @@ public class BookingRestaurantApiApplication {
             ).forEach(System.out::println);
 
             System.out.println("Deleting Maria 2");
-            System.out.println(studentRepository.deleteStudentById(4L));
+            System.out.println(studentRepository.deleteStudentById(4L));*/
 
 
         } ;
